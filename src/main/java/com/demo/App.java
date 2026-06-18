@@ -10,6 +10,9 @@ public class App {
     public static int square(int x) {
         return x * x;
     }
+    public static int multiply(int x, int y) {
+        return x * y;
+    }
     public  static String  display()
     {
         return "display data";
@@ -18,6 +21,8 @@ public class App {
         System.out.println(greet());
         System.out.println("Calculator Demo:");
         System.out.println("2 + 3 = " + add(2, 3));
+        System.out.println("This is mulitply");
+        System.out.println("5 * 10 = " + multiply(5, 10));
         
     }
 }
